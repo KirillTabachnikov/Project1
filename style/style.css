@@ -373,7 +373,7 @@ body * {
     line-height: 27px;
     padding: 12px 75px 12px 76px;
     outline: 0;
-    border: 0;
+    border: 1px solid transparent;
     color: #FFFFFF;
 }
 
