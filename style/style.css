@@ -8,6 +8,36 @@ body{
 body * {
     box-sizing: border-box;
 }
+label{
+    cursor: pointer;
+}
+.check_input{
+    display: none;
+}
+.fake{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    position: relative;
+}
+.fake::before{
+    content:"\2714";
+    position: absolute;
+    display: block;
+    top:35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    opacity: 0;
+    transition: .2s;
+    color: #fff;
+}
+.check_input:checked + .fake::before{
+    opacity: 1;
+}
 .title{
     font-family: Yeseva One;
     font-style: normal;
@@ -180,7 +210,6 @@ body * {
 }
 .content-img{
     flex-direction: column;
-    
 }
 .content-nav{
     list-style: none;
@@ -256,7 +285,6 @@ body * {
     background: rgba(255, 255, 255, 0.3);
     border-radius: 30px;
     margin-right: 17px;
-    
 }
 .mug:hover{
     background: #FFFFFF;
@@ -376,7 +404,6 @@ body * {
     border: 1px solid transparent;
     color: #FFFFFF;
 }
-
 .checktext{
     font-size: 14px;
     line-height: 23px;
