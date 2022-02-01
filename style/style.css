@@ -90,7 +90,7 @@ label{
     line-height: 15px;
 }
 .tel{
-    color: #E3B873;
+    color: #FFFFFF;;
     font-size: 11px;
     line-height: 15px;
     text-align: right;
@@ -135,7 +135,7 @@ label{
     position: relative;
     z-index: 1;
 }
-.title-wecllom{
+.title-wellcom{
     margin: 0;
     font-size: 40px;
     line-height: 53px;
@@ -208,6 +208,11 @@ label{
     color: #FFFFFF;
     padding-right: 50px;
 }
+
+.carousel-completed {
+    display: none;
+}
+
 .content-img{
     flex-direction: column;
 }
@@ -884,4 +889,96 @@ label{
     color: white;
     font-size: 11px;
     line-height: 15px;
+}
+
+@media (max-width: 375px) { 
+
+    .container {
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    .header-content {
+        height: 57px;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .button_Request {
+        display: none;
+    }
+
+    .wellcom {
+        height: 476px;
+        padding-top: 85px;
+    }
+
+    .title-wellcom {
+        font-size: 23px;
+        line-height: 132.83%;
+        margin-bottom: 16px;
+    }
+
+    .wellcom-text {
+        font-size: 14px;
+        line-height: 135.84%;
+        margin-bottom: 32px;
+    }
+    .button-calc {
+        width: 338px;
+        height: 51px;
+        margin-bottom: 26px;
+        margin: 0 auto;
+        margin-bottom: 26px;
+    }
+
+    .button-application {
+        width: 338px;
+        height: 51px;
+        margin: 0 auto;
+    }
+
+    .content {
+        height: 772px;
+        padding: 0;
+    }
+
+    .title-completed {
+        padding: 0;
+        text-align: center;
+        margin-top: 36px;
+        font-size: 22px;
+        line-height: 138.6%;
+    }
+
+    .content-img {
+        display: none;
+    }
+
+    .information {
+        padding: 0;
+        width: 311px;
+        margin: 0 auto;
+        height: 86px;
+        margin-top: 22px;
+        font-size: 11px;
+        line-height: 158.48%;
+        text-align: center;
+    }
+
+    .carousel-completed {
+        display: block;
+        margin-top: 36px;
+    }
+
+    .arrows {
+        display: none;
+    }
+
+    .carousel-prev-icon{
+        display: inline-block;
+    }
+    
 }
