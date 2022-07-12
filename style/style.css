@@ -756,7 +756,7 @@ label{
 .questions{
     margin-top: -222px;
     background: #131313;
-    min-width: 883px;
+    width: 883px;
     min-height: 445px;
     display: flex;
     flex-direction: column;
@@ -941,7 +941,7 @@ label{
     }
 
     .content {
-        height: 772px;
+        height: 727px;
         padding: 0;
     }
 
@@ -971,14 +971,315 @@ label{
     .carousel-completed {
         display: block;
         margin-top: 36px;
+        position: relative;
+    }
+
+    .carousel-item {
+        width: 340px;
+        height: 241px;
+    }
+
+    .block-img {
+        width: 340px;
+        height: 241px;
+    }
+
+    .visually-hidden-perv {
+        display: inline-block;
+        position: absolute;
+        top: 115px;
+        left: 14px;
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+
+    .visually-hidden-next {
+        display: inline-block;
+        position: absolute;
+        top: 115px;
+        right: 14px;
+        padding: 0;
+        margin: 0;
+        border: none;
     }
 
     .arrows {
         display: none;
     }
 
+    .carousel-prev {
+        display: contents;
+    }
+
+    .carousel-next {
+        display: contents;
+    }
+
     .carousel-prev-icon{
-        display: inline-block;
+        display: none;
+    }
+
+    .carousel-next-icon {
+        display: none;
+    }
+
+    .content-box {
+        margin-top: 36px;
+        justify-content: space-between;
+    }
+
+    .box-title {
+        font-size: 14px;
+        line-height: 138.6%;
+    }
+
+    .box-info {
+        font-size: 11px;
+        line-height: 135.84%;
+    }
+
+    .video {
+        background-color: #131313;
+        height: 860px;
     }
     
+    .container-video {
+        margin-top: 0px;
+    }
+
+    .video-content {
+        height: 207px;
+        width: 340px;
+    }
+
+    .video-img {
+        height: 207px;
+        width: 340px;
+    }
+
+    .play {
+        top: 75px;
+        left: 140px;
+        height: 60px;
+        width: 60px;
+    }
+
+    .line-line {
+        margin: 28px 0 0;
+    }
+
+    .video-text {
+        font-size: 11px;
+        line-height: 169.8%;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 21px;
+    }
+
+    .Name {
+        width: 340px;
+        margin: 0 auto;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 13px;
+        line-height: 21px;
+        margin-bottom: 63px;
+    }
+
+    .Phone {
+        width: 340px;
+        margin: 0 auto;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 13px;
+        line-height: 21px;
+        margin-bottom: 26px;
+    }
+
+    .YourName {
+        background-color: #131313;
+        font-size: 14px;
+        line-height: 138.72%;
+        color: #FFFFFF;
+    }
+
+    .Submit {
+        width: 340px;
+        height: 51px;
+        position: absolute;
+        bottom: -135px;
+    }
+
+    .chek-content {
+        width: 340px;
+        margin: 0 auto;
+    }
+
+    .checktext {
+        font-size: 14px;
+        line-height: 163.68%;
+        color: #FFFFFF;
+    }
+
+    .title-of-repair {
+        margin-top: 83px;
+    }
+
+    .types-of-repair {
+        height: 1937px;
+    }
+
+    .image_Redecorating {
+        width: 340px;
+        height: 578px;
+    }
+
+    .included-repair {
+        width: 270px;
+        height: 241px;
+        margin-bottom: 79px;
+        padding-top: 21px;
+        margin-top: 255px;
+        margin-left: 0;
+    }
+
+    .title-included {
+        font-size: 15px;
+        line-height: 138.6%;
+        margin: 0;
+    }
+
+    .included {
+        font-size: 13px;
+        line-height: 170.8%;
+        margin-top: 10px;
+        height: 152px;
+        width: 250px;
+    }
+
+    .price{
+        margin-top: 20px;
+        height: 40px;
+        padding: 11px 19px;
+        width: 190px;
+        display: block;
+        margin-bottom: 59px;
+    }
+
+    .text-price {
+        font-size: 15px;
+        line-height: 138.6%;
+        padding: 0;
+    }
+
+    .image_Overhaul {
+        width: 340px;
+        height: 578px;
+    }
+
+    .image_Designer {
+        width: 340px;
+        height: 578px;
+    }
+
+    .finish {
+        background: #131313;
+        background-image: none;
+        height: 1180px;
+    }
+
+    .finish-overlay {
+        background: none;
+    }
+
+    .questions {
+        margin: 0 auto;
+        max-width: 340px;
+        align-items: flex-start;
+        height: 600px;
+    }
+
+    .titel-questions {
+        margin: 34px 59px 0 59px;
+    }
+
+    .line-input-customer {
+        width: 340px;
+    }
+
+    .customer-name-phone {
+        margin-top: 63px;
+    }
+
+    .questions-name {
+        margin-top: 63px;
+    }
+
+    .questions-checkbox {
+        margin-top: 21px;
+    }
+
+    .customer-data {
+        flex-direction: column;
+        margin-top: 52px;
+        width: 340px;
+    }
+
+    .line-input-questions {
+        width: 340px;
+    }
+
+    .button-questions {
+        width: 340px;
+        height: 51px;
+        margin-top: 67px;
+    }
+
+    .title-address {
+        font-size: 18px;
+        line-height: 138.6%;
+        position: absolute;
+        bottom: -80px;
+        margin: 0 auto;
+    }
+
+    .icon {
+        position: absolute;
+        bottom: -143px;
+        left: 135px;
+    }
+
+    .icon-mail {
+        width: 39px;
+        height: 39px;
+    }
+
+    .address-map {
+        min-width: 340px;
+        min-height: 340px;
+        position: relative;
+        bottom: 48px;
+    }
+
+    .Form {
+        flex-direction: column;
+        position: relative;
+        margin-top: 61px;
+    }
+
+    .content-repair {
+        flex-direction: column;
+    }
+
+    .feedback-content{
+        display: none;
+    }
+
+    .our_clients{
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
 }
